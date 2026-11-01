@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: darkred;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#user-container {
+    margin-top: 15px;
+}
+
+.user-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Navigation */
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+/* Content Boxes */
+
+.content-box {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* Week 11 State Management */
+
+#counter {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+#counterMessage {
+    margin-top: 10px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+#plusBtn,
+#minusBtn {
+    width: 50px;
+    margin: 5px;
+}
